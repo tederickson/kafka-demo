@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kafka-demo
+  kafka:
+    bootstrap-servers: 'localhost:9092'
+    consumer:
+      group-id: events
+erickson:
+  kafka:
+    topic: customer.visit
