@@ -14,5 +14,5 @@ import org.springframework.context.annotation.Configuration;
 @NoArgsConstructor
 @Builder
 public class KafkaConfigProps {
-    private String topic;
+    private   String topic;
 }
